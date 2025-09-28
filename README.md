@@ -20,3 +20,8 @@ gcc render.c -o render
 ./render
 
 Probs wont work on Windows
+
+
+# Bare metal version
+
+If you have QEMU, just run qemu-system-i386 hashna.img
