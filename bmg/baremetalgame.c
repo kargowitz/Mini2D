@@ -317,7 +317,7 @@ void DrawMapWithPlayer(struct Map *map, Player *player)
             }
             else
             {
-                printc(' ');   // ✅ ensure empty space is drawn
+                printc(' ');   //ensure empty space is drawn
             }
         }
         printc('\n');
