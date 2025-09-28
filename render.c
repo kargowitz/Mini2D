@@ -207,8 +207,8 @@ int main(void)
 
         char c;
 
-    while (1)
-    {
+        while (1)
+        {
                 if (read(STDIN_FILENO, &c, 1) == 1)
                 {
                         if (c == 'w')
